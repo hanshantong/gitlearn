@@ -25,3 +25,13 @@ public class Animal {
 	public abstract void sleep();
 	
 }
+
+class Dog extends Animal {
+	public Dog() {
+		
+	}
+	
+	public void eat() {
+		System.out.println("I eat dog food.");
+	}
+}
